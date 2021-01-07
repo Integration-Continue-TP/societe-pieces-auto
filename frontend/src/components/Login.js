@@ -16,7 +16,7 @@ class Login extends Component {
     render() {
         return (
             <div className="Login">
-                <h1>Connexion</h1>
+                <h2>Connexion</h2>
                 <form onSubmit={this.handleSubmit}>
                     <div className="form-group">
                         <label htmlFor="exampleInputEmail1">Adresse mail</label>

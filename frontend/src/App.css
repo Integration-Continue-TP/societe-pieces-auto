@@ -1,3 +1,20 @@
 .container {
   padding-top: 2rem;
 }
+
+.card {
+  width: 18rem;
+  margin-right: 15px;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.logout-btn {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
