@@ -2,15 +2,9 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - cd frontend && yarn
-      - cd frontend && yarn test
+      - cd frontend
+      - yarn
+      - yarn test
   build:
    commands:
-      - cd frontend && yarn build
-# Artifacts will specify what files will be uploaded to s3
-# This will include all files within the "build" folder
-artifacts:
-  files:
-    - '**/*'
-  discard-paths: no
-  base-directory: build
+      - yarn build
