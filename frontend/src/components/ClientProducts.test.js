@@ -1,6 +1,4 @@
-import React from 'react';
-
-describe('Login UTs', () => {
+describe('ClientProducts UTs', () => {
     test('should return true', () => {
         expect(true).toBeTruthy();
     });

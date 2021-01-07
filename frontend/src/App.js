@@ -8,7 +8,7 @@ import './App.css';
 
 import Login from './components/Login';
 import ClientProducts from './components/ClientProducts';
-import ManagementProducts from './components/MangementProducts';
+import ManagementProducts from './components/ManagementProducts';
 
 function App() {
   return (
