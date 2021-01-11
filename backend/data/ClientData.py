@@ -15,7 +15,7 @@ class ClientData:
                 'nom': 'Delacompta',
                 'prenom': 'Michel',
                 'telephone': '06 07 08 09 10',
-                'token': 'zPRh7xVz/@H(2syE'
+                'token': 'zPRh7xVzH2syE'
             },
             {
                 'produit_id': 0,
@@ -23,7 +23,7 @@ class ClientData:
                 'nom': 'Zucc',
                 'prenom': 'Marc',
                 'telephone': '06 05 08 09 10',
-                'token': '<t:q&8>f6tnW:-(b'
+                'token': 'Fezfzf6tnW4'
             }
         ]
         return client_data

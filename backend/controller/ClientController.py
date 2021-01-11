@@ -3,15 +3,15 @@ from . import controller
 from data import ClientData
 
 
-@controller.route('/api/client', methods=['GET'])
-def get_client():
+@controller.route('/api/clients', methods=['GET'])
+def get_clients():
     return jsonify(ClientData.get_all())
 
 
-@controller.route('/api/client/<client_id>', methods=['GET'])
-def get_client(client=0):
+@controller.route('/api/clients/<client_id>', methods=['GET'])
+def get_client(client_id=0):
     return jsonify(ClientData.get_by_id(int(client_id)))
 
-@controller.route('/api/client', methods=['POST'])
+@controller.route('/api/clients', methods=['POST'])
 def get_token():
     return

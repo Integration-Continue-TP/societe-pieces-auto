@@ -4,7 +4,7 @@ from data import ProduitData
 
 
 @controller.route('/api/produit', methods=['GET'])
-def get_produit():
+def get_produits():
     return jsonify(ProduitData.get_all())
 
 
