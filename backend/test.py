@@ -39,12 +39,12 @@ def getPrice(idProduit, idClient):
 class UnitTest(unittest.TestCase):
 
     def test_price(self):
-        self.assertEqual(getPrice(0, 1), 107.88000000000001)
+        self.assertEqual(getPrice(0, 1), 116.87)
         
         
     
     def test_price2(self):
-        self.assertEqual(getPrice(2, 1), 60.0)
+        self.assertEqual(getPrice(2, 1), 65.0)
 
 
 if __name__ == '__main__':
