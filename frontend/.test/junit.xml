@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="0" errors="0" time="3.39">
+  <testsuite name="App UTs" errors="0" failures="0" skipped="0" timestamp="2021-01-12T14:41:51" time="1.222" tests="1">
+    <testcase classname="App UTs should return true" name="App UTs should return true" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Login UTs" errors="0" failures="0" skipped="0" timestamp="2021-01-12T14:41:51" time="1.838" tests="1">
+    <testcase classname="Login UTs should create component" name="Login UTs should create component" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="ManagementProducts UTs" errors="0" failures="0" skipped="0" timestamp="2021-01-12T14:41:51" time="1.838" tests="1">
+    <testcase classname="ManagementProducts UTs should create component" name="ManagementProducts UTs should create component" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="ClientProducts UTs" errors="0" failures="0" skipped="0" timestamp="2021-01-12T14:41:51" time="1.839" tests="1">
+    <testcase classname="ClientProducts UTs should create component" name="ClientProducts UTs should create component" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>
