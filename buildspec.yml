@@ -17,4 +17,4 @@ reports:
         files:
             - junit.xml
         file-format: JUNITXML
-        base-directory: .test
+        base-directory: frontend/.test
