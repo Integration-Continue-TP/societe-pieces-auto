@@ -7,6 +7,15 @@ class Login extends Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
+    async componentDidMount() {
+        const response = await fetch('http://localhost:5000/api/clients', {
+            method: 'GET',
+            mode: 'no-cors'
+        });
+      //  const data = await response.json();
+        console.log(response);
+    }
+
 
     handleSubmit(event) {
         console.log(`login: ${event.target[0].value} ; password: ${event.target[1].value}`);

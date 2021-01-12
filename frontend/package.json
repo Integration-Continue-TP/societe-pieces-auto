@@ -2,6 +2,9 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "jest": {
+    "verbose": true
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -12,12 +15,15 @@
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "immutability-helper": "^2.1.1",
+    "keycode-js": "^0.0.4",
+    "recompose": "^0.23.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "CI=true react-scripts test --env=jsdom",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,6 +45,13 @@
     ]
   },
   "devDependencies": {
-    "enzyme": "^3.11.0"
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-jest": "^26.6.3",
+    "jest": "26.6.0",
+    "jest-junit": "^12.0.0",
+    "react-scripts": "0.9.0",
+    "regenerator-runtime": "^0.13.7",
+    "ts-jest": "^26.4.4"
   }
 }

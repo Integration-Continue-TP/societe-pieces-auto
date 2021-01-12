@@ -1,7 +1,10 @@
 import React from 'react';
+import { screen } from '@testing-library/react';
 
 describe('Login UTs', () => {
-    test('should return true', () => {
-        expect(true).toBeTruthy();
+
+    test('should create component', () => {
+        expect(screen).toBeTruthy();
     });
-})
+
+});
