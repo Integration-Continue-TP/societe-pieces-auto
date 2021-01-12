@@ -1,0 +1,60 @@
+{
+    "Client": [
+        { "nom": "RICHE",
+            "prenom": "Aurélien",
+            "Téléphone": "0647845135",
+            "email": "Aurel.riche@gmail.com",
+            "password": "********************",
+            "Token": "FKNTUBHV?GFTRK?GJITNGILV?KR?GKJTRGNJTRBNDUHBHUBNDKBNHGB",
+
+            "Contrat": [
+              { "id": "14",
+                  "type": "Cadre",
+                  "marge": 10
+                  
+                }
+              ]
+          },
+
+          { "nom": "DUPONT",
+            "prenom": "Jean",
+            "Téléphone": "0644142035",
+            "email": "Jean.Dupont@gmail.com",
+            "password": "********",
+            "Token": "OUHANFHRZFBGOHVNUNHO?FOBUNROUFENFYIURTGTUGHNHTRBFERUFBE",
+
+            "Contrat": [
+              { "id": "24",
+                  "type": "Cadre",
+                  "marge": 10
+                  
+                }
+              ]
+            
+          }
+
+          
+
+      
+    ],
+
+
+    "Produit": [
+        { "libellé": "Batterie",
+            "prix": 89.90
+            
+          },
+          
+          { "libellé": "Plaquettes de frein",
+            "prix": 23.50
+            
+          },
+
+          { "libellé": "Roue",
+            "prix": 50
+            
+          }
+    ]
+
+   
+}   
